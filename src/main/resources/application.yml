@@ -1,0 +1,11 @@
+datasources:
+ one:
+  jdbcUrl: jdbc:h2:mem:h2Testdb
+  username: sa
+  password: 
+  maximumPoolSize: 1
+ another:
+  jdbcUrl: jdbc:hsqldb:mem:hsqldbTestdb
+  username: sa
+  password: 
+  maximumPoolSize: 1
